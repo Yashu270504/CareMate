@@ -1,0 +1,151 @@
+food,safe_alternative,reason
+jalebi,fruit salad,"fruit salad is a healthier alternative to jalebi as it reduces fat, sugar, or salt."
+laddu,dry fruit laddu,"dry fruit laddu is a healthier alternative to laddu as it reduces fat, sugar, or salt."
+rasgulla,baked sandesh,"baked sandesh is a healthier alternative to rasgulla as it reduces fat, sugar, or salt."
+pakora,steamed idli,"steamed idli is a healthier alternative to pakora as it reduces fat, sugar, or salt."
+samosa,baked samosa,"baked samosa is a healthier alternative to samosa as it reduces fat, sugar, or salt."
+white rice,millet,"millet is a healthier alternative to white rice as it reduces fat, sugar, or salt."
+biryani,vegetable pulao,"vegetable pulao is a healthier alternative to biryani as it reduces fat, sugar, or salt."
+butter chicken,chicken tikka,"chicken tikka is a healthier alternative to butter chicken as it reduces fat, sugar, or salt."
+fried fish,grilled fish,"grilled fish is a healthier alternative to fried fish as it reduces fat, sugar, or salt."
+pickle,fresh salad,"fresh salad is a healthier alternative to pickle as it reduces fat, sugar, or salt."
+papad,roasted papad,"roasted papad is a healthier alternative to papad as it reduces fat, sugar, or salt."
+chai,green tea,"green tea is a healthier alternative to chai as it reduces fat, sugar, or salt."
+masala chai,tulsi tea,"tulsi tea is a healthier alternative to masala chai as it reduces fat, sugar, or salt."
+ghee,mustard oil,"mustard oil is a healthier alternative to ghee as it reduces fat, sugar, or salt."
+butter,olive oil,"olive oil is a healthier alternative to butter as it reduces fat, sugar, or salt."
+paneer,tofu,"tofu is a healthier alternative to paneer as it reduces fat, sugar, or salt."
+curd,soy yogurt,"soy yogurt is a healthier alternative to curd as it reduces fat, sugar, or salt."
+ice cream,frozen yogurt,"frozen yogurt is a healthier alternative to ice cream as it reduces fat, sugar, or salt."
+soft drink,lemon water,"lemon water is a healthier alternative to soft drink as it reduces fat, sugar, or salt."
+burger,vegetable sandwich,"vegetable sandwich is a healthier alternative to burger as it reduces fat, sugar, or salt."
+chicken tikka,roasted nut,roasted nut is considered healthier compared to chicken tikka due to better nutrient profile.
+jackfruit,roasted nut,roasted nut is considered healthier compared to jackfruit due to better nutrient profile.
+pickle,steamed idli,steamed idli is considered healthier compared to pickle due to better nutrient profile.
+tulsi tea,tofu,tofu is considered healthier compared to tulsi tea due to better nutrient profile.
+butter,roasted nut,roasted nut is considered healthier compared to butter due to better nutrient profile.
+tulsi tea,grilled chicken,grilled chicken is considered healthier compared to tulsi tea due to better nutrient profile.
+curd,steamed idli,steamed idli is considered healthier compared to curd due to better nutrient profile.
+rajma,roasted nut,roasted nut is considered healthier compared to rajma due to better nutrient profile.
+chai,tofu,tofu is considered healthier compared to chai due to better nutrient profile.
+chicken tikka,green tea,green tea is considered healthier compared to chicken tikka due to better nutrient profile.
+dosa,steamed idli,steamed idli is considered healthier compared to dosa due to better nutrient profile.
+brown rice,green tea,green tea is considered healthier compared to brown rice due to better nutrient profile.
+chana,tofu,tofu is considered healthier compared to chana due to better nutrient profile.
+pulao,tofu,tofu is considered healthier compared to pulao due to better nutrient profile.
+curd,tofu,tofu is considered healthier compared to curd due to better nutrient profile.
+tulsi tea,lentil soup,lentil soup is considered healthier compared to tulsi tea due to better nutrient profile.
+onion,tofu,tofu is considered healthier compared to onion due to better nutrient profile.
+pakora,lentil soup,lentil soup is considered healthier compared to pakora due to better nutrient profile.
+mango,tofu,tofu is considered healthier compared to mango due to better nutrient profile.
+turmeric,steamed idli,steamed idli is considered healthier compared to turmeric due to better nutrient profile.
+jalebi,grilled chicken,grilled chicken is considered healthier compared to jalebi due to better nutrient profile.
+rajma,fruit salad,fruit salad is considered healthier compared to rajma due to better nutrient profile.
+rice,millet,millet is considered healthier compared to rice due to better nutrient profile.
+pickle,green tea,green tea is considered healthier compared to pickle due to better nutrient profile.
+curry leaves,tofu,tofu is considered healthier compared to curry leaves due to better nutrient profile.
+samosa,millet,millet is considered healthier compared to samosa due to better nutrient profile.
+papad,lentil soup,lentil soup is considered healthier compared to papad due to better nutrient profile.
+kale,grilled chicken,grilled chicken is considered healthier compared to kale due to better nutrient profile.
+curd,roasted nut,roasted nut is considered healthier compared to curd due to better nutrient profile.
+butter chicken,grilled chicken,grilled chicken is considered healthier compared to butter chicken due to better nutrient profile.
+ghee,tofu,tofu is considered healthier compared to ghee due to better nutrient profile.
+laddu,tofu,tofu is considered healthier compared to laddu due to better nutrient profile.
+pickle,roasted nut,roasted nut is considered healthier compared to pickle due to better nutrient profile.
+rasgulla,millet,millet is considered healthier compared to rasgulla due to better nutrient profile.
+samosa,tofu,tofu is considered healthier compared to samosa due to better nutrient profile.
+white rice,green tea,green tea is considered healthier compared to white rice due to better nutrient profile.
+turmeric,tofu,tofu is considered healthier compared to turmeric due to better nutrient profile.
+methi,lentil soup,lentil soup is considered healthier compared to methi due to better nutrient profile.
+tomato,steamed idli,steamed idli is considered healthier compared to tomato due to better nutrient profile.
+prawn,fruit salad,fruit salad is considered healthier compared to prawn due to better nutrient profile.
+papad,green tea,green tea is considered healthier compared to papad due to better nutrient profile.
+ginger,roasted nut,roasted nut is considered healthier compared to ginger due to better nutrient profile.
+papad,green tea,green tea is considered healthier compared to papad due to better nutrient profile.
+curry leaves,grilled chicken,grilled chicken is considered healthier compared to curry leaves due to better nutrient profile.
+dal,roasted nut,roasted nut is considered healthier compared to dal due to better nutrient profile.
+curd,grilled chicken,grilled chicken is considered healthier compared to curd due to better nutrient profile.
+turmeric,fruit salad,fruit salad is considered healthier compared to turmeric due to better nutrient profile.
+rajma,fruit salad,fruit salad is considered healthier compared to rajma due to better nutrient profile.
+ginger,fruit salad,fruit salad is considered healthier compared to ginger due to better nutrient profile.
+methi,tofu,tofu is considered healthier compared to methi due to better nutrient profile.
+onion,fruit salad,fruit salad is considered healthier compared to onion due to better nutrient profile.
+biryani,lentil soup,lentil soup is considered healthier compared to biryani due to better nutrient profile.
+green chili,green tea,green tea is considered healthier compared to green chili due to better nutrient profile.
+guava,fruit salad,fruit salad is considered healthier compared to guava due to better nutrient profile.
+brown rice,tofu,tofu is considered healthier compared to brown rice due to better nutrient profile.
+spinach,lentil soup,lentil soup is considered healthier compared to spinach due to better nutrient profile.
+guava,lentil soup,lentil soup is considered healthier compared to guava due to better nutrient profile.
+chicken tikka,green tea,green tea is considered healthier compared to chicken tikka due to better nutrient profile.
+rasgulla,tofu,tofu is considered healthier compared to rasgulla due to better nutrient profile.
+papad,lentil soup,lentil soup is considered healthier compared to papad due to better nutrient profile.
+pulao,steamed idli,steamed idli is considered healthier compared to pulao due to better nutrient profile.
+ginger,lentil soup,lentil soup is considered healthier compared to ginger due to better nutrient profile.
+kale,tofu,tofu is considered healthier compared to kale due to better nutrient profile.
+laddu,fruit salad,fruit salad is considered healthier compared to laddu due to better nutrient profile.
+rice,green tea,green tea is considered healthier compared to rice due to better nutrient profile.
+dosa,green tea,green tea is considered healthier compared to dosa due to better nutrient profile.
+kale,grilled chicken,grilled chicken is considered healthier compared to kale due to better nutrient profile.
+white rice,green tea,green tea is considered healthier compared to white rice due to better nutrient profile.
+pakora,grilled chicken,grilled chicken is considered healthier compared to pakora due to better nutrient profile.
+turmeric,millet,millet is considered healthier compared to turmeric due to better nutrient profile.
+rasgulla,fruit salad,fruit salad is considered healthier compared to rasgulla due to better nutrient profile.
+ginger,grilled chicken,grilled chicken is considered healthier compared to ginger due to better nutrient profile.
+chana,grilled chicken,grilled chicken is considered healthier compared to chana due to better nutrient profile.
+curry leaves,roasted nut,roasted nut is considered healthier compared to curry leaves due to better nutrient profile.
+tulsi tea,green tea,green tea is considered healthier compared to tulsi tea due to better nutrient profile.
+rasgulla,green tea,green tea is considered healthier compared to rasgulla due to better nutrient profile.
+garlic,roasted nut,roasted nut is considered healthier compared to garlic due to better nutrient profile.
+chana,grilled chicken,grilled chicken is considered healthier compared to chana due to better nutrient profile.
+laddu,roasted nut,roasted nut is considered healthier compared to laddu due to better nutrient profile.
+masala chai,roasted nut,roasted nut is considered healthier compared to masala chai due to better nutrient profile.
+ginger,fruit salad,fruit salad is considered healthier compared to ginger due to better nutrient profile.
+ginger,steamed idli,steamed idli is considered healthier compared to ginger due to better nutrient profile.
+mango,fruit salad,fruit salad is considered healthier compared to mango due to better nutrient profile.
+dal,steamed idli,steamed idli is considered healthier compared to dal due to better nutrient profile.
+kale,fruit salad,fruit salad is considered healthier compared to kale due to better nutrient profile.
+alcohol,fruit salad,fruit salad is considered healthier compared to alcohol due to better nutrient profile.
+tomato,tofu,tofu is considered healthier compared to tomato due to better nutrient profile.
+laddu,millet,millet is considered healthier compared to laddu due to better nutrient profile.
+butter chicken,steamed idli,steamed idli is considered healthier compared to butter chicken due to better nutrient profile.
+paneer,green tea,green tea is considered healthier compared to paneer due to better nutrient profile.
+papad,fruit salad,fruit salad is considered healthier compared to papad due to better nutrient profile.
+garlic,lentil soup,lentil soup is considered healthier compared to garlic due to better nutrient profile.
+curry leaves,roasted nut,roasted nut is considered healthier compared to curry leaves due to better nutrient profile.
+spinach,green tea,green tea is considered healthier compared to spinach due to better nutrient profile.
+white rice,roasted nut,roasted nut is considered healthier compared to white rice due to better nutrient profile.
+alcohol,tofu,tofu is considered healthier compared to alcohol due to better nutrient profile.
+milk,roasted nut,roasted nut is considered healthier compared to milk due to better nutrient profile.
+curry leaves,green tea,green tea is considered healthier compared to curry leaves due to better nutrient profile.
+chai,tofu,tofu is considered healthier compared to chai due to better nutrient profile.
+alcohol,fruit salad,fruit salad is considered healthier compared to alcohol due to better nutrient profile.
+samosa,roasted nut,roasted nut is considered healthier compared to samosa due to better nutrient profile.
+butter chicken,green tea,green tea is considered healthier compared to butter chicken due to better nutrient profile.
+guava,roasted nut,roasted nut is considered healthier compared to guava due to better nutrient profile.
+prawn,grilled chicken,grilled chicken is considered healthier compared to prawn due to better nutrient profile.
+green chili,tofu,tofu is considered healthier compared to green chili due to better nutrient profile.
+curry leaves,fruit salad,fruit salad is considered healthier compared to curry leaves due to better nutrient profile.
+brown rice,green tea,green tea is considered healthier compared to brown rice due to better nutrient profile.
+dosa,steamed idli,steamed idli is considered healthier compared to dosa due to better nutrient profile.
+tulsi tea,green tea,green tea is considered healthier compared to tulsi tea due to better nutrient profile.
+turmeric,tofu,tofu is considered healthier compared to turmeric due to better nutrient profile.
+fish curry,fruit salad,fruit salad is considered healthier compared to fish curry due to better nutrient profile.
+samosa,lentil soup,lentil soup is considered healthier compared to samosa due to better nutrient profile.
+dosa,millet,millet is considered healthier compared to dosa due to better nutrient profile.
+jalebi,grilled chicken,grilled chicken is considered healthier compared to jalebi due to better nutrient profile.
+curd,lentil soup,lentil soup is considered healthier compared to curd due to better nutrient profile.
+pakora,steamed idli,steamed idli is considered healthier compared to pakora due to better nutrient profile.
+prawn,tofu,tofu is considered healthier compared to prawn due to better nutrient profile.
+pakora,grilled chicken,grilled chicken is considered healthier compared to pakora due to better nutrient profile.
+samosa,tofu,tofu is considered healthier compared to samosa due to better nutrient profile.
+methi,roasted nut,roasted nut is considered healthier compared to methi due to better nutrient profile.
+samosa,roasted nut,roasted nut is considered healthier compared to samosa due to better nutrient profile.
+garlic,tofu,tofu is considered healthier compared to garlic due to better nutrient profile.
+masala chai,grilled chicken,grilled chicken is considered healthier compared to masala chai due to better nutrient profile.
+pulao,lentil soup,lentil soup is considered healthier compared to pulao due to better nutrient profile.
+chicken tikka,lentil soup,lentil soup is considered healthier compared to chicken tikka due to better nutrient profile.
+methi,steamed idli,steamed idli is considered healthier compared to methi due to better nutrient profile.
+tomato,roasted nut,roasted nut is considered healthier compared to tomato due to better nutrient profile.
+butter,millet,millet is considered healthier compared to butter due to better nutrient profile.
+white rice,grilled chicken,grilled chicken is considered healthier compared to white rice due to better nutrient profile.
+ghee,steamed idli,steamed idli is considered healthier compared to ghee due to better nutrient profile.

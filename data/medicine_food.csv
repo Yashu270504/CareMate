@@ -1,0 +1,151 @@
+medicine,food,interaction,warning,explanation
+paracetamol,ginger,safe,no major risk,ginger with paracetamol may cause no major risk according to clinical and dietary notes.
+paracetamol,ghee,risky,causes bloating,ghee with paracetamol may cause causes bloating according to clinical and dietary notes.
+paracetamol,papad,risky,raises blood sugar,papad with paracetamol may cause raises blood sugar according to clinical and dietary notes.
+paracetamol,fish curry,risky,reduced absorption,fish curry with paracetamol may cause reduced absorption according to clinical and dietary notes.
+paracetamol,rice,dangerous,severe nausea,rice with paracetamol may cause severe nausea according to clinical and dietary notes.
+paracetamol,spinach,risky,raises blood sugar,spinach with paracetamol may cause raises blood sugar according to clinical and dietary notes.
+paracetamol,pakora,risky,causes bloating,pakora with paracetamol may cause causes bloating according to clinical and dietary notes.
+paracetamol,jalebi,risky,causes bloating,jalebi with paracetamol may cause causes bloating according to clinical and dietary notes.
+ibuprofen,samosa,safe,no harmful interaction,samosa with ibuprofen may cause no harmful interaction according to clinical and dietary notes.
+ibuprofen,methi,dangerous,severe side effects,methi with ibuprofen may cause severe side effects according to clinical and dietary notes.
+ibuprofen,idli,safe,generally safe,idli with ibuprofen may cause generally safe according to clinical and dietary notes.
+ibuprofen,alcohol,dangerous,liver damage risk,alcohol with ibuprofen may cause liver damage risk according to clinical and dietary notes.
+ibuprofen,papad,risky,increases side effects,papad with ibuprofen may cause increases side effects according to clinical and dietary notes.
+ibuprofen,jackfruit,dangerous,liver damage risk,jackfruit with ibuprofen may cause liver damage risk according to clinical and dietary notes.
+ibuprofen,ghee,risky,causes bloating,ghee with ibuprofen may cause causes bloating according to clinical and dietary notes.
+ibuprofen,prawn,safe,generally safe,prawn with ibuprofen may cause generally safe according to clinical and dietary notes.
+aspirin,rasgulla,risky,causes bloating,rasgulla with aspirin may cause causes bloating according to clinical and dietary notes.
+aspirin,guava,safe,no harmful interaction,guava with aspirin may cause no harmful interaction according to clinical and dietary notes.
+aspirin,tulsi tea,dangerous,bleeding risk,tulsi tea with aspirin may cause bleeding risk according to clinical and dietary notes.
+aspirin,laddu,dangerous,liver damage risk,laddu with aspirin may cause liver damage risk according to clinical and dietary notes.
+aspirin,ghee,dangerous,liver damage risk,ghee with aspirin may cause liver damage risk according to clinical and dietary notes.
+aspirin,coconut water,safe,no harmful interaction,coconut water with aspirin may cause no harmful interaction according to clinical and dietary notes.
+aspirin,garlic,dangerous,bleeding risk,garlic with aspirin may cause bleeding risk according to clinical and dietary notes.
+aspirin,spinach,risky,raises blood sugar,spinach with aspirin may cause raises blood sugar according to clinical and dietary notes.
+metformin,curry leaves,safe,generally safe,curry leaves with metformin may cause generally safe according to clinical and dietary notes.
+metformin,fish curry,dangerous,liver damage risk,fish curry with metformin may cause liver damage risk according to clinical and dietary notes.
+metformin,spinach,risky,increases side effects,spinach with metformin may cause increases side effects according to clinical and dietary notes.
+metformin,chai,dangerous,severe side effects,chai with metformin may cause severe side effects according to clinical and dietary notes.
+metformin,samosa,dangerous,bleeding risk,samosa with metformin may cause bleeding risk according to clinical and dietary notes.
+metformin,onion,risky,raises blood pressure,onion with metformin may cause raises blood pressure according to clinical and dietary notes.
+metformin,idli,risky,causes bloating,idli with metformin may cause causes bloating according to clinical and dietary notes.
+metformin,white rice,risky,increases side effects,white rice with metformin may cause increases side effects according to clinical and dietary notes.
+insulin,coconut water,dangerous,severe side effects,coconut water with insulin may cause severe side effects according to clinical and dietary notes.
+insulin,dosa,safe,generally safe,dosa with insulin may cause generally safe according to clinical and dietary notes.
+insulin,white rice,risky,raises blood sugar,white rice with insulin may cause raises blood sugar according to clinical and dietary notes.
+insulin,alcohol,safe,no harmful interaction,alcohol with insulin may cause no harmful interaction according to clinical and dietary notes.
+insulin,fish curry,dangerous,severe side effects,fish curry with insulin may cause severe side effects according to clinical and dietary notes.
+insulin,pulao,safe,no harmful interaction,pulao with insulin may cause no harmful interaction according to clinical and dietary notes.
+insulin,methi,safe,no major risk,methi with insulin may cause no major risk according to clinical and dietary notes.
+insulin,chana,safe,no harmful interaction,chana with insulin may cause no harmful interaction according to clinical and dietary notes.
+warfarin,rajma,risky,increases side effects,rajma with warfarin may cause increases side effects according to clinical and dietary notes.
+warfarin,banana,dangerous,severe side effects,banana with warfarin may cause severe side effects according to clinical and dietary notes.
+warfarin,onion,risky,raises blood pressure,onion with warfarin may cause raises blood pressure according to clinical and dietary notes.
+warfarin,rasgulla,risky,raises blood pressure,rasgulla with warfarin may cause raises blood pressure according to clinical and dietary notes.
+warfarin,pakora,safe,no major risk,pakora with warfarin may cause no major risk according to clinical and dietary notes.
+warfarin,jalebi,dangerous,bleeding risk,jalebi with warfarin may cause bleeding risk according to clinical and dietary notes.
+warfarin,butter,risky,increases side effects,butter with warfarin may cause increases side effects according to clinical and dietary notes.
+warfarin,curry leaves,safe,no major risk,curry leaves with warfarin may cause no major risk according to clinical and dietary notes.
+amlodipine,onion,dangerous,severe nausea,onion with amlodipine may cause severe nausea according to clinical and dietary notes.
+amlodipine,garlic,dangerous,severe nausea,garlic with amlodipine may cause severe nausea according to clinical and dietary notes.
+amlodipine,spinach,risky,increases side effects,spinach with amlodipine may cause increases side effects according to clinical and dietary notes.
+amlodipine,rasgulla,dangerous,severe side effects,rasgulla with amlodipine may cause severe side effects according to clinical and dietary notes.
+amlodipine,butter,dangerous,bleeding risk,butter with amlodipine may cause bleeding risk according to clinical and dietary notes.
+amlodipine,kale,safe,no harmful interaction,kale with amlodipine may cause no harmful interaction according to clinical and dietary notes.
+amlodipine,prawn,dangerous,severe nausea,prawn with amlodipine may cause severe nausea according to clinical and dietary notes.
+amlodipine,samosa,dangerous,liver damage risk,samosa with amlodipine may cause liver damage risk according to clinical and dietary notes.
+lisinopril,biryani,risky,causes bloating,biryani with lisinopril may cause causes bloating according to clinical and dietary notes.
+lisinopril,samosa,risky,reduced absorption,samosa with lisinopril may cause reduced absorption according to clinical and dietary notes.
+lisinopril,curd,safe,generally safe,curd with lisinopril may cause generally safe according to clinical and dietary notes.
+lisinopril,garlic,safe,generally safe,garlic with lisinopril may cause generally safe according to clinical and dietary notes.
+lisinopril,spinach,risky,increases side effects,spinach with lisinopril may cause increases side effects according to clinical and dietary notes.
+lisinopril,turmeric,dangerous,liver damage risk,turmeric with lisinopril may cause liver damage risk according to clinical and dietary notes.
+lisinopril,dosa,dangerous,severe nausea,dosa with lisinopril may cause severe nausea according to clinical and dietary notes.
+lisinopril,dal,safe,no major risk,dal with lisinopril may cause no major risk according to clinical and dietary notes.
+atenolol,tomato,dangerous,hypertensive crisis,tomato with atenolol may cause hypertensive crisis according to clinical and dietary notes.
+atenolol,pulao,dangerous,liver damage risk,pulao with atenolol may cause liver damage risk according to clinical and dietary notes.
+atenolol,jackfruit,safe,no harmful interaction,jackfruit with atenolol may cause no harmful interaction according to clinical and dietary notes.
+atenolol,banana,risky,reduced absorption,banana with atenolol may cause reduced absorption according to clinical and dietary notes.
+atenolol,butter chicken,dangerous,severe side effects,butter chicken with atenolol may cause severe side effects according to clinical and dietary notes.
+atenolol,ghee,safe,no harmful interaction,ghee with atenolol may cause no harmful interaction according to clinical and dietary notes.
+atenolol,spinach,dangerous,bleeding risk,spinach with atenolol may cause bleeding risk according to clinical and dietary notes.
+atenolol,biryani,risky,raises blood sugar,biryani with atenolol may cause raises blood sugar according to clinical and dietary notes.
+levothyroxine,paneer,safe,no harmful interaction,paneer with levothyroxine may cause no harmful interaction according to clinical and dietary notes.
+levothyroxine,chicken tikka,dangerous,bleeding risk,chicken tikka with levothyroxine may cause bleeding risk according to clinical and dietary notes.
+levothyroxine,turmeric,risky,raises blood sugar,turmeric with levothyroxine may cause raises blood sugar according to clinical and dietary notes.
+levothyroxine,coconut water,risky,causes bloating,coconut water with levothyroxine may cause causes bloating according to clinical and dietary notes.
+levothyroxine,curd,safe,generally safe,curd with levothyroxine may cause generally safe according to clinical and dietary notes.
+levothyroxine,alcohol,risky,raises blood sugar,alcohol with levothyroxine may cause raises blood sugar according to clinical and dietary notes.
+levothyroxine,jackfruit,safe,generally safe,jackfruit with levothyroxine may cause generally safe according to clinical and dietary notes.
+levothyroxine,jalebi,safe,generally safe,jalebi with levothyroxine may cause generally safe according to clinical and dietary notes.
+simvastatin,garlic,safe,generally safe,garlic with simvastatin may cause generally safe according to clinical and dietary notes.
+simvastatin,pakora,risky,increases side effects,pakora with simvastatin may cause increases side effects according to clinical and dietary notes.
+simvastatin,rice,risky,increases side effects,rice with simvastatin may cause increases side effects according to clinical and dietary notes.
+simvastatin,paneer,risky,causes bloating,paneer with simvastatin may cause causes bloating according to clinical and dietary notes.
+simvastatin,samosa,risky,increases side effects,samosa with simvastatin may cause increases side effects according to clinical and dietary notes.
+simvastatin,brown rice,dangerous,bleeding risk,brown rice with simvastatin may cause bleeding risk according to clinical and dietary notes.
+simvastatin,idli,risky,raises blood sugar,idli with simvastatin may cause raises blood sugar according to clinical and dietary notes.
+simvastatin,curry leaves,safe,no harmful interaction,curry leaves with simvastatin may cause no harmful interaction according to clinical and dietary notes.
+atorvastatin,ghee,risky,increases side effects,ghee with atorvastatin may cause increases side effects according to clinical and dietary notes.
+atorvastatin,methi,safe,no major risk,methi with atorvastatin may cause no major risk according to clinical and dietary notes.
+atorvastatin,paneer,safe,no major risk,paneer with atorvastatin may cause no major risk according to clinical and dietary notes.
+atorvastatin,alcohol,risky,reduced absorption,alcohol with atorvastatin may cause reduced absorption according to clinical and dietary notes.
+atorvastatin,pulao,dangerous,hypertensive crisis,pulao with atorvastatin may cause hypertensive crisis according to clinical and dietary notes.
+atorvastatin,curd,dangerous,hypertensive crisis,curd with atorvastatin may cause hypertensive crisis according to clinical and dietary notes.
+atorvastatin,dal,safe,no harmful interaction,dal with atorvastatin may cause no harmful interaction according to clinical and dietary notes.
+atorvastatin,pakora,safe,no harmful interaction,pakora with atorvastatin may cause no harmful interaction according to clinical and dietary notes.
+omeprazole,alcohol,risky,raises blood sugar,alcohol with omeprazole may cause raises blood sugar according to clinical and dietary notes.
+omeprazole,butter,risky,reduced absorption,butter with omeprazole may cause reduced absorption according to clinical and dietary notes.
+omeprazole,curry leaves,risky,increases side effects,curry leaves with omeprazole may cause increases side effects according to clinical and dietary notes.
+omeprazole,banana,risky,raises blood sugar,banana with omeprazole may cause raises blood sugar according to clinical and dietary notes.
+omeprazole,kale,safe,no harmful interaction,kale with omeprazole may cause no harmful interaction according to clinical and dietary notes.
+omeprazole,masala chai,safe,no major risk,masala chai with omeprazole may cause no major risk according to clinical and dietary notes.
+omeprazole,rajma,risky,reduced absorption,rajma with omeprazole may cause reduced absorption according to clinical and dietary notes.
+omeprazole,green chili,dangerous,hypertensive crisis,green chili with omeprazole may cause hypertensive crisis according to clinical and dietary notes.
+ranitidine,mango,safe,no harmful interaction,mango with ranitidine may cause no harmful interaction according to clinical and dietary notes.
+ranitidine,spinach,risky,reduced absorption,spinach with ranitidine may cause reduced absorption according to clinical and dietary notes.
+ranitidine,ghee,dangerous,severe nausea,ghee with ranitidine may cause severe nausea according to clinical and dietary notes.
+ranitidine,onion,dangerous,hypertensive crisis,onion with ranitidine may cause hypertensive crisis according to clinical and dietary notes.
+ranitidine,milk,risky,raises blood sugar,milk with ranitidine may cause raises blood sugar according to clinical and dietary notes.
+ranitidine,white rice,risky,raises blood sugar,white rice with ranitidine may cause raises blood sugar according to clinical and dietary notes.
+ranitidine,pulao,safe,no major risk,pulao with ranitidine may cause no major risk according to clinical and dietary notes.
+ranitidine,masala chai,dangerous,severe side effects,masala chai with ranitidine may cause severe side effects according to clinical and dietary notes.
+clozapine,tomato,risky,increases side effects,tomato with clozapine may cause increases side effects according to clinical and dietary notes.
+clozapine,kale,risky,causes bloating,kale with clozapine may cause causes bloating according to clinical and dietary notes.
+clozapine,brown rice,risky,causes bloating,brown rice with clozapine may cause causes bloating according to clinical and dietary notes.
+clozapine,laddu,dangerous,bleeding risk,laddu with clozapine may cause bleeding risk according to clinical and dietary notes.
+clozapine,tulsi tea,safe,no major risk,tulsi tea with clozapine may cause no major risk according to clinical and dietary notes.
+clozapine,turmeric,dangerous,liver damage risk,turmeric with clozapine may cause liver damage risk according to clinical and dietary notes.
+clozapine,banana,safe,generally safe,banana with clozapine may cause generally safe according to clinical and dietary notes.
+clozapine,coconut water,safe,no harmful interaction,coconut water with clozapine may cause no harmful interaction according to clinical and dietary notes.
+tetracycline,masala chai,safe,generally safe,masala chai with tetracycline may cause generally safe according to clinical and dietary notes.
+tetracycline,pickle,risky,causes bloating,pickle with tetracycline may cause causes bloating according to clinical and dietary notes.
+tetracycline,ginger,safe,generally safe,ginger with tetracycline may cause generally safe according to clinical and dietary notes.
+tetracycline,dosa,dangerous,hypertensive crisis,dosa with tetracycline may cause hypertensive crisis according to clinical and dietary notes.
+tetracycline,butter chicken,risky,reduced absorption,butter chicken with tetracycline may cause reduced absorption according to clinical and dietary notes.
+tetracycline,turmeric,dangerous,bleeding risk,turmeric with tetracycline may cause bleeding risk according to clinical and dietary notes.
+tetracycline,curry leaves,safe,no harmful interaction,curry leaves with tetracycline may cause no harmful interaction according to clinical and dietary notes.
+tetracycline,rajma,risky,reduced absorption,rajma with tetracycline may cause reduced absorption according to clinical and dietary notes.
+ciprofloxacin,garlic,risky,raises blood pressure,garlic with ciprofloxacin may cause raises blood pressure according to clinical and dietary notes.
+ciprofloxacin,coconut water,risky,raises blood sugar,coconut water with ciprofloxacin may cause raises blood sugar according to clinical and dietary notes.
+ciprofloxacin,banana,dangerous,bleeding risk,banana with ciprofloxacin may cause bleeding risk according to clinical and dietary notes.
+ciprofloxacin,guava,dangerous,severe side effects,guava with ciprofloxacin may cause severe side effects according to clinical and dietary notes.
+ciprofloxacin,kale,safe,generally safe,kale with ciprofloxacin may cause generally safe according to clinical and dietary notes.
+ciprofloxacin,alcohol,safe,generally safe,alcohol with ciprofloxacin may cause generally safe according to clinical and dietary notes.
+ciprofloxacin,rajma,risky,causes bloating,rajma with ciprofloxacin may cause causes bloating according to clinical and dietary notes.
+ciprofloxacin,dosa,risky,causes bloating,dosa with ciprofloxacin may cause causes bloating according to clinical and dietary notes.
+azithromycin,guava,dangerous,liver damage risk,guava with azithromycin may cause liver damage risk according to clinical and dietary notes.
+azithromycin,green chili,dangerous,hypertensive crisis,green chili with azithromycin may cause hypertensive crisis according to clinical and dietary notes.
+azithromycin,banana,dangerous,hypertensive crisis,banana with azithromycin may cause hypertensive crisis according to clinical and dietary notes.
+azithromycin,pickle,safe,no harmful interaction,pickle with azithromycin may cause no harmful interaction according to clinical and dietary notes.
+azithromycin,butter,risky,causes bloating,butter with azithromycin may cause causes bloating according to clinical and dietary notes.
+azithromycin,butter chicken,dangerous,liver damage risk,butter chicken with azithromycin may cause liver damage risk according to clinical and dietary notes.
+azithromycin,laddu,risky,increases side effects,laddu with azithromycin may cause increases side effects according to clinical and dietary notes.
+azithromycin,chai,safe,generally safe,chai with azithromycin may cause generally safe according to clinical and dietary notes.
+ferrous sulfate,dal,safe,no harmful interaction,dal with ferrous sulfate may cause no harmful interaction according to clinical and dietary notes.
+ferrous sulfate,rasgulla,dangerous,severe side effects,rasgulla with ferrous sulfate may cause severe side effects according to clinical and dietary notes.
+ferrous sulfate,chai,risky,causes bloating,chai with ferrous sulfate may cause causes bloating according to clinical and dietary notes.
+ferrous sulfate,spinach,dangerous,severe nausea,spinach with ferrous sulfate may cause severe nausea according to clinical and dietary notes.
+ferrous sulfate,samosa,dangerous,hypertensive crisis,samosa with ferrous sulfate may cause hypertensive crisis according to clinical and dietary notes.
+ferrous sulfate,jalebi,safe,generally safe,jalebi with ferrous sulfate may cause generally safe according to clinical and dietary notes.
