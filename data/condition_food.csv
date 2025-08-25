@@ -1,0 +1,151 @@
+condition,food,warning,explanation
+diabetes,rajma,triggers allergy,eating rajma can triggers allergy in people with diabetes.
+diabetes,rasgulla,causes bloating,eating rasgulla can causes bloating in people with diabetes.
+diabetes,butter chicken,triggers allergy,eating butter chicken can triggers allergy in people with diabetes.
+diabetes,tulsi tea,high salt content,eating tulsi tea can high salt content in people with diabetes.
+diabetes,laddu,reduces medicine effectiveness,eating laddu can reduces medicine effectiveness in people with diabetes.
+diabetes,pakora,increases blood pressure,eating pakora can increases blood pressure in people with diabetes.
+diabetes,butter,triggers allergy,eating butter can triggers allergy in people with diabetes.
+diabetes,curry leaves,raises blood glucose,eating curry leaves can raises blood glucose in people with diabetes.
+diabetes,chai,raises blood glucose,eating chai can raises blood glucose in people with diabetes.
+diabetes,dal,high salt content,eating dal can high salt content in people with diabetes.
+hypertension,turmeric,triggers allergy,eating turmeric can triggers allergy in people with hypertension.
+hypertension,jalebi,raises uric acid,eating jalebi can raises uric acid in people with hypertension.
+hypertension,methi,may worsen symptoms,eating methi can may worsen symptoms in people with hypertension.
+hypertension,papad,increases blood pressure,eating papad can increases blood pressure in people with hypertension.
+hypertension,prawn,reduces medicine effectiveness,eating prawn can reduces medicine effectiveness in people with hypertension.
+hypertension,dosa,high salt content,eating dosa can high salt content in people with hypertension.
+hypertension,chai,increases blood pressure,eating chai can increases blood pressure in people with hypertension.
+hypertension,alcohol,raises uric acid,eating alcohol can raises uric acid in people with hypertension.
+hypertension,coconut water,increases blood pressure,eating coconut water can increases blood pressure in people with hypertension.
+hypertension,guava,causes bloating,eating guava can causes bloating in people with hypertension.
+heart failure,prawn,raises blood glucose,eating prawn can raises blood glucose in people with heart failure.
+heart failure,pickle,raises blood glucose,eating pickle can raises blood glucose in people with heart failure.
+heart failure,coconut water,reduces medicine effectiveness,eating coconut water can reduces medicine effectiveness in people with heart failure.
+heart failure,paneer,reduces medicine effectiveness,eating paneer can reduces medicine effectiveness in people with heart failure.
+heart failure,milk,raises uric acid,eating milk can raises uric acid in people with heart failure.
+heart failure,idli,increases blood pressure,eating idli can increases blood pressure in people with heart failure.
+heart failure,papad,raises uric acid,eating papad can raises uric acid in people with heart failure.
+heart failure,onion,reduces medicine effectiveness,eating onion can reduces medicine effectiveness in people with heart failure.
+heart failure,rajma,may worsen symptoms,eating rajma can may worsen symptoms in people with heart failure.
+heart failure,dal,may worsen symptoms,eating dal can may worsen symptoms in people with heart failure.
+chronic kidney disease,banana,causes bloating,eating banana can causes bloating in people with chronic kidney disease.
+chronic kidney disease,butter,may worsen symptoms,eating butter can may worsen symptoms in people with chronic kidney disease.
+chronic kidney disease,rajma,may worsen symptoms,eating rajma can may worsen symptoms in people with chronic kidney disease.
+chronic kidney disease,laddu,increases blood pressure,eating laddu can increases blood pressure in people with chronic kidney disease.
+chronic kidney disease,papad,raises blood glucose,eating papad can raises blood glucose in people with chronic kidney disease.
+chronic kidney disease,rice,high salt content,eating rice can high salt content in people with chronic kidney disease.
+chronic kidney disease,pulao,raises blood glucose,eating pulao can raises blood glucose in people with chronic kidney disease.
+chronic kidney disease,garlic,causes bloating,eating garlic can causes bloating in people with chronic kidney disease.
+chronic kidney disease,chicken tikka,raises uric acid,eating chicken tikka can raises uric acid in people with chronic kidney disease.
+chronic kidney disease,samosa,raises uric acid,eating samosa can raises uric acid in people with chronic kidney disease.
+gout,pickle,raises blood glucose,eating pickle can raises blood glucose in people with gout.
+gout,rasgulla,raises blood glucose,eating rasgulla can raises blood glucose in people with gout.
+gout,pakora,reduces medicine effectiveness,eating pakora can reduces medicine effectiveness in people with gout.
+gout,dosa,causes bloating,eating dosa can causes bloating in people with gout.
+gout,prawn,triggers allergy,eating prawn can triggers allergy in people with gout.
+gout,dal,high salt content,eating dal can high salt content in people with gout.
+gout,garlic,high salt content,eating garlic can high salt content in people with gout.
+gout,curd,causes bloating,eating curd can causes bloating in people with gout.
+gout,white rice,increases blood pressure,eating white rice can increases blood pressure in people with gout.
+gout,papad,reduces medicine effectiveness,eating papad can reduces medicine effectiveness in people with gout.
+anemia,spinach,raises blood glucose,eating spinach can raises blood glucose in people with anemia.
+anemia,tulsi tea,causes bloating,eating tulsi tea can causes bloating in people with anemia.
+anemia,chana,reduces medicine effectiveness,eating chana can reduces medicine effectiveness in people with anemia.
+anemia,pulao,high salt content,eating pulao can high salt content in people with anemia.
+anemia,jalebi,raises uric acid,eating jalebi can raises uric acid in people with anemia.
+anemia,butter,high salt content,eating butter can high salt content in people with anemia.
+anemia,kale,reduces medicine effectiveness,eating kale can reduces medicine effectiveness in people with anemia.
+anemia,coconut water,raises blood glucose,eating coconut water can raises blood glucose in people with anemia.
+anemia,dosa,increases blood pressure,eating dosa can increases blood pressure in people with anemia.
+anemia,biryani,increases blood pressure,eating biryani can increases blood pressure in people with anemia.
+thyroid disorder,banana,reduces medicine effectiveness,eating banana can reduces medicine effectiveness in people with thyroid disorder.
+thyroid disorder,curry leaves,raises blood glucose,eating curry leaves can raises blood glucose in people with thyroid disorder.
+thyroid disorder,samosa,triggers allergy,eating samosa can triggers allergy in people with thyroid disorder.
+thyroid disorder,kale,may worsen symptoms,eating kale can may worsen symptoms in people with thyroid disorder.
+thyroid disorder,prawn,high salt content,eating prawn can high salt content in people with thyroid disorder.
+thyroid disorder,butter chicken,may worsen symptoms,eating butter chicken can may worsen symptoms in people with thyroid disorder.
+thyroid disorder,garlic,triggers allergy,eating garlic can triggers allergy in people with thyroid disorder.
+thyroid disorder,idli,high salt content,eating idli can high salt content in people with thyroid disorder.
+thyroid disorder,pickle,may worsen symptoms,eating pickle can may worsen symptoms in people with thyroid disorder.
+thyroid disorder,coconut water,reduces medicine effectiveness,eating coconut water can reduces medicine effectiveness in people with thyroid disorder.
+pcos,onion,increases blood pressure,eating onion can increases blood pressure in people with pcos.
+pcos,dal,raises blood glucose,eating dal can raises blood glucose in people with pcos.
+pcos,jackfruit,raises blood glucose,eating jackfruit can raises blood glucose in people with pcos.
+pcos,masala chai,triggers allergy,eating masala chai can triggers allergy in people with pcos.
+pcos,fish curry,causes bloating,eating fish curry can causes bloating in people with pcos.
+pcos,jalebi,increases blood pressure,eating jalebi can increases blood pressure in people with pcos.
+pcos,pulao,increases blood pressure,eating pulao can increases blood pressure in people with pcos.
+pcos,white rice,high salt content,eating white rice can high salt content in people with pcos.
+pcos,pakora,reduces medicine effectiveness,eating pakora can reduces medicine effectiveness in people with pcos.
+pcos,banana,raises blood glucose,eating banana can raises blood glucose in people with pcos.
+pregnancy,masala chai,raises uric acid,eating masala chai can raises uric acid in people with pregnancy.
+pregnancy,kale,high salt content,eating kale can high salt content in people with pregnancy.
+pregnancy,jackfruit,raises uric acid,eating jackfruit can raises uric acid in people with pregnancy.
+pregnancy,ghee,may worsen symptoms,eating ghee can may worsen symptoms in people with pregnancy.
+pregnancy,laddu,raises uric acid,eating laddu can raises uric acid in people with pregnancy.
+pregnancy,tomato,raises uric acid,eating tomato can raises uric acid in people with pregnancy.
+pregnancy,green chili,may worsen symptoms,eating green chili can may worsen symptoms in people with pregnancy.
+pregnancy,banana,causes bloating,eating banana can causes bloating in people with pregnancy.
+pregnancy,butter chicken,triggers allergy,eating butter chicken can triggers allergy in people with pregnancy.
+pregnancy,biryani,triggers allergy,eating biryani can triggers allergy in people with pregnancy.
+liver disease,brown rice,may worsen symptoms,eating brown rice can may worsen symptoms in people with liver disease.
+liver disease,milk,may worsen symptoms,eating milk can may worsen symptoms in people with liver disease.
+liver disease,garlic,may worsen symptoms,eating garlic can may worsen symptoms in people with liver disease.
+liver disease,white rice,raises blood glucose,eating white rice can raises blood glucose in people with liver disease.
+liver disease,coconut water,reduces medicine effectiveness,eating coconut water can reduces medicine effectiveness in people with liver disease.
+liver disease,dal,increases blood pressure,eating dal can increases blood pressure in people with liver disease.
+liver disease,guava,high salt content,eating guava can high salt content in people with liver disease.
+liver disease,methi,raises uric acid,eating methi can raises uric acid in people with liver disease.
+liver disease,ginger,causes bloating,eating ginger can causes bloating in people with liver disease.
+liver disease,papad,causes bloating,eating papad can causes bloating in people with liver disease.
+obesity,jackfruit,causes bloating,eating jackfruit can causes bloating in people with obesity.
+obesity,pickle,raises uric acid,eating pickle can raises uric acid in people with obesity.
+obesity,chicken tikka,high salt content,eating chicken tikka can high salt content in people with obesity.
+obesity,paneer,high salt content,eating paneer can high salt content in people with obesity.
+obesity,prawn,raises blood glucose,eating prawn can raises blood glucose in people with obesity.
+obesity,coconut water,raises blood glucose,eating coconut water can raises blood glucose in people with obesity.
+obesity,milk,may worsen symptoms,eating milk can may worsen symptoms in people with obesity.
+obesity,alcohol,reduces medicine effectiveness,eating alcohol can reduces medicine effectiveness in people with obesity.
+obesity,papad,reduces medicine effectiveness,eating papad can reduces medicine effectiveness in people with obesity.
+obesity,ghee,causes bloating,eating ghee can causes bloating in people with obesity.
+gerd,pickle,reduces medicine effectiveness,eating pickle can reduces medicine effectiveness in people with gerd.
+gerd,butter chicken,high salt content,eating butter chicken can high salt content in people with gerd.
+gerd,mango,increases blood pressure,eating mango can increases blood pressure in people with gerd.
+gerd,pakora,triggers allergy,eating pakora can triggers allergy in people with gerd.
+gerd,prawn,causes bloating,eating prawn can causes bloating in people with gerd.
+gerd,tomato,triggers allergy,eating tomato can triggers allergy in people with gerd.
+gerd,methi,reduces medicine effectiveness,eating methi can reduces medicine effectiveness in people with gerd.
+gerd,dal,high salt content,eating dal can high salt content in people with gerd.
+gerd,garlic,high salt content,eating garlic can high salt content in people with gerd.
+gerd,samosa,triggers allergy,eating samosa can triggers allergy in people with gerd.
+asthma,spinach,raises uric acid,eating spinach can raises uric acid in people with asthma.
+asthma,fish curry,triggers allergy,eating fish curry can triggers allergy in people with asthma.
+asthma,pulao,reduces medicine effectiveness,eating pulao can reduces medicine effectiveness in people with asthma.
+asthma,green chili,triggers allergy,eating green chili can triggers allergy in people with asthma.
+asthma,brown rice,raises blood glucose,eating brown rice can raises blood glucose in people with asthma.
+asthma,butter,high salt content,eating butter can high salt content in people with asthma.
+asthma,jalebi,high salt content,eating jalebi can high salt content in people with asthma.
+asthma,chai,raises uric acid,eating chai can raises uric acid in people with asthma.
+asthma,coconut water,high salt content,eating coconut water can high salt content in people with asthma.
+asthma,ginger,triggers allergy,eating ginger can triggers allergy in people with asthma.
+migraine,brown rice,reduces medicine effectiveness,eating brown rice can reduces medicine effectiveness in people with migraine.
+migraine,green chili,triggers allergy,eating green chili can triggers allergy in people with migraine.
+migraine,jackfruit,increases blood pressure,eating jackfruit can increases blood pressure in people with migraine.
+migraine,masala chai,raises blood glucose,eating masala chai can raises blood glucose in people with migraine.
+migraine,curry leaves,may worsen symptoms,eating curry leaves can may worsen symptoms in people with migraine.
+migraine,pickle,high salt content,eating pickle can high salt content in people with migraine.
+migraine,onion,causes bloating,eating onion can causes bloating in people with migraine.
+migraine,pakora,high salt content,eating pakora can high salt content in people with migraine.
+migraine,chicken tikka,raises uric acid,eating chicken tikka can raises uric acid in people with migraine.
+migraine,rice,may worsen symptoms,eating rice can may worsen symptoms in people with migraine.
+celiac disease,butter chicken,causes bloating,eating butter chicken can causes bloating in people with celiac disease.
+celiac disease,rice,raises uric acid,eating rice can raises uric acid in people with celiac disease.
+celiac disease,prawn,raises blood glucose,eating prawn can raises blood glucose in people with celiac disease.
+celiac disease,dal,increases blood pressure,eating dal can increases blood pressure in people with celiac disease.
+celiac disease,jalebi,increases blood pressure,eating jalebi can increases blood pressure in people with celiac disease.
+celiac disease,milk,reduces medicine effectiveness,eating milk can reduces medicine effectiveness in people with celiac disease.
+celiac disease,kale,raises uric acid,eating kale can raises uric acid in people with celiac disease.
+celiac disease,guava,high salt content,eating guava can high salt content in people with celiac disease.
+celiac disease,jackfruit,causes bloating,eating jackfruit can causes bloating in people with celiac disease.
+celiac disease,turmeric,increases blood pressure,eating turmeric can increases blood pressure in people with celiac disease.
