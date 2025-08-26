@@ -1,37 +1,33 @@
-import re
+import os
+from ibm_watsonx_ai.foundation_models import Model
+from dotenv import load_dotenv
 
-# ---------- Text Normalization ----------
-def normalize_text(text: str) -> str:
-    if not isinstance(text, str):
-        return ""
-    return re.sub(r'[^a-zA-Z0-9\s]', '', text).strip().lower()
+# Load credentials
+load_dotenv()
+API_KEY = os.getenv("IBM_API_KEY")
+PROJECT_ID = os.getenv("IBM_PROJECT_ID")
+REGION = os.getenv("IBM_REGION", "us-south")  # default region
 
-# ---------- Synonym Mapping ----------
-SYNONYMS = {
-    "tomatoes": "tomato",
-    "sugars": "sugar",
-    "potatoes": "potato",
-    "peanuts": "peanut"
+# Configure model
+model_id = "ibm/granite-13b-chat-v2"   # Granite model for simplification
+parameters = {
+    "decoding_method": "greedy",
+    "max_new_tokens": 100,
+    "min_new_tokens": 1
 }
 
-def map_synonyms(word: str) -> str:
-    word = normalize_text(word)
-    return SYNONYMS.get(word, word)
+model = Model(
+    model_id=model_id,
+    params=parameters,
+    project_id=PROJECT_ID,
+    credentials={"apikey": API_KEY, "url": f"https://{REGION}.ml.cloud.ibm.com"}
+)
 
-# ---------- Ingredient Extraction ----------
-def extract_ingredients(recipe_text: str):
-    recipe_text = normalize_text(recipe_text)
-    words = recipe_text.split(",")  # split on commas
-    return [map_synonyms(w.strip()) for w in words if w.strip()]
-
-# ---------- Watsonx.ai Simplifier ----------
+# ---------- Simplify Text ----------
 def simplify_text(text: str) -> str:
-    """
-    Stub for IBM Watsonx.ai integration.
-    Replace with actual API call later.
-    """
-    return f"Simplified: {text}"
-
-if __name__ == "__main__":
-    print(extract_ingredients("Tomatoes, sugar, peanuts"))
-    print(simplify_text("Alcohol may cause hepatotoxicity with paracetamol."))
+    try:
+        prompt = f"Simplify the following medical explanation into patient-friendly language:\n{text}"
+        response = model.generate_text(prompt=prompt)
+        return response["results"][0]["generated_text"]
+    except Exception as e:
+        return f"Simplified (fallback): {text}"
