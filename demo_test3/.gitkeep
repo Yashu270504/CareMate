@@ -1,0 +1,5 @@
+from tests.utils import format_results
+
+def test_diabetes_sugar():
+    pass   # ❌ first definition (empty)
+
