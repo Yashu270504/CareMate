@@ -1,0 +1,32 @@
+# === Core Backend ===
+fastapi
+uvicorn[standard]         # FastAPI server
+pydantic                  # Data validation
+python-dotenv             # Load .env variables
+
+# === Database ===
+sqlalchemy
+alembic                   # DB migrations
+psycopg2-binary           # PostgreSQL driver
+
+# === Machine Learning ===
+pandas
+scikit-learn
+xgboost                   # Optional (better than RF for tabular data)
+joblib                    # Save/load ML models
+
+# === IBM Watson / Granite ===
+ibm-watson-machine-learning
+ibm-watsonx-ai
+
+# === AWS Integrations ===
+boto3                     # AWS SDK (S3, Textract, SNS)
+
+# === Utils ===
+requests                  # API calls
+python-multipart          # File uploads (for OCR images)
+cryptography              # Encrypt sensitive user data
+
+# === Testing ===
+pytest
+httpx                     # Test HTTP endpoints
