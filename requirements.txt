@@ -1,7 +1,0 @@
-pandas
-streamlit
-python-dotenv
-ibm-watsonx-ai
-pytest         # for K’s tests
-pytesseract    # if later you add OCR for medicine images
-Pillow         # required by pytesseract
