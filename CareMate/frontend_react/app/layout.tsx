@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-<<<<<<< HEAD
-import Navbar from "./components/Navbar";
-import ChatbotLoader from "./components/ChatbotLoader";
-import ChatbotButton from "./components/ChatbotButton";  // ✅ add button
-=======
 import Navbar from "./components/Navbar"; // ✅ Keep only Navbar
->>>>>>> 073132d (THE MERGE BEFORE DOING ALL THE CHNGES)
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,15 +30,6 @@ export default function RootLayout({
         <main className="pt-20 px-6 min-h-screen relative">
           {children}
         </main>
-<<<<<<< HEAD
-
-        {/* ✅ Load Watson chat in background */}
-        <ChatbotLoader />
-
-        {/* ✅ Floating chat button */}
-        <ChatbotButton />
-=======
->>>>>>> 073132d (THE MERGE BEFORE DOING ALL THE CHNGES)
       </body>
     </html>
   );
