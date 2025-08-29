@@ -12,7 +12,6 @@ if not DATA_PATH.exists():
 # Load Excel instead of CSV
 df = pd.read_excel(DATA_PATH)
 print(f"📦 Loaded dataset with {len(df)} rows and {len(df.columns)} columns from {DATA_PATH}")
-#print(df.head())
 
 # Preprocess lowercase for matching
 for col in ["food_name", "ingredients", "medicine", "condition",
@@ -29,27 +28,32 @@ def rule_check(user: Dict, food_name: str, medicines: List[str]) -> Dict:
     food = food_name.lower()
     meds = [m.lower() for m in medicines]
 
-    # Find matching food rows (fuzzy match)
+    # Find matching food rows
     rows = df[df["food_name"].str.contains(food, case=False, na=False)]
 
-    # 1. Allergy check
+    # 1. Allergy check in food ingredients
     for allergen in user.get("allergies", []):
-        # Check in ingredients
         if not rows.empty and rows["ingredients"].str.contains(allergen, case=False, na=False).any():
             return {
                 "risk": "danger",
                 "reason": f"Contains {allergen}, which you are allergic to.",
                 "source": "Allergy dataset rule"
             }
-        # Check in medicine allergens
-        if df["allergens_medicine"].str.contains(allergen, case=False, na=False).any():
-            return {
-                "risk": "danger",
-                "reason": f"Medicine contains {allergen}, which you are allergic to.",
-                "source": "Medicine allergy rule"
-            }
 
-    # 2. Condition ↔ food risks
+    # 2. Medicine ↔ allergy check (but only for matched medicines)
+    for med in meds:
+        med_row = df[df["medicine"].str.contains(med, case=False, na=False)]
+        if not med_row.empty:
+            med_allergens = str(med_row["allergens_medicine"].iloc[0])
+            for allergen in user.get("allergies", []):
+                if pd.notna(med_allergens) and allergen in med_allergens:
+                    return {
+                        "risk": "danger",
+                        "reason": f"{med.title()} may contain {allergen}, which you are allergic to.",
+                        "source": "Medicine allergy rule"
+                    }
+
+    # 3. Condition ↔ food risks
     for cond in user.get("conditions", []):
         if not rows.empty and rows["condition"].str.contains(cond, case=False, na=False).any():
             return {
@@ -58,7 +62,7 @@ def rule_check(user: Dict, food_name: str, medicines: List[str]) -> Dict:
                 "source": "Condition dataset rule"
             }
 
-    # 3. Food ↔ drug interactions
+    # 4. Food ↔ drug interactions
     for med in meds:
         med_row = df[df["medicine"].str.contains(med, case=False, na=False)]
         if not rows.empty and not med_row.empty:
@@ -68,7 +72,7 @@ def rule_check(user: Dict, food_name: str, medicines: List[str]) -> Dict:
                 "source": "Food-drug dataset rule"
             }
 
-    # 4. Age restrictions
+    # 5. Age restrictions
     if "age_limit" in df.columns:
         for med in meds:
             med_row = df[df["medicine"].str.contains(med, case=False, na=False)]
@@ -92,12 +96,12 @@ def rule_check(user: Dict, food_name: str, medicines: List[str]) -> Dict:
 # ---------- Demo Run ----------
 if __name__ == "__main__":
     user = {
-        "age": 10,
+        "age": 23,
         "allergies": ["peanuts"],
-        "conditions": ["diabetes"]
+        "conditions": ["thyroid"]
     }
-    food = "chocolate cake"
-    medicines = ["insulin"]
+    food = "ice cream"
+    medicines = ["aspirin"]
 
     result = rule_check(user, food, medicines)
     print("Rule Engine Result:", result)
