@@ -4,6 +4,12 @@ uvicorn[standard]         # FastAPI server
 pydantic                  # Data validation
 python-dotenv             # Load .env variables
 
+pandas
+numpy
+scikit-learn>=1.2
+joblib
+openpyxl
+
 # === Database ===
 sqlalchemy
 alembic                   # DB migrations
@@ -20,13 +26,13 @@ ibm-watson-machine-learning
 ibm-watsonx-ai
 
 # === AWS Integrations ===
-boto3                     # AWS SDK (S3, Textract, SNS)
+#boto3                     # AWS SDK (S3, Textract, SNS)
 
 # === Utils ===
-requests                  # API calls
-python-multipart          # File uploads (for OCR images)
-cryptography              # Encrypt sensitive user data
+#requests                  # API calls
+#python-multipart          # File uploads (for OCR images)
+#cryptography              # Encrypt sensitive user data
 
 # === Testing ===
-pytest
-httpx                     # Test HTTP endpoints
+#pytest
+#httpx                     # Test HTTP endpoints
