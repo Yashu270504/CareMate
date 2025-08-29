@@ -12,7 +12,7 @@ if not DATA_PATH.exists():
 # Load Excel instead of CSV
 df = pd.read_excel(DATA_PATH)
 print(f"📦 Loaded dataset with {len(df)} rows and {len(df.columns)} columns from {DATA_PATH}")
-print(df.head())
+#print(df.head())
 
 # Preprocess lowercase for matching
 for col in ["food_name", "ingredients", "medicine", "condition",
