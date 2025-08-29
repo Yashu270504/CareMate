@@ -4,27 +4,24 @@ import { useState } from "react";
 
 export default function MedicinesEntryPage() {
   const [medicine, setMedicine] = useState("");
-  const [dosage, setDosage] = useState("");
-  const [medicines, setMedicines] = useState<{ name: string; dosage: string }[]>([]);
+  const [medicines, setMedicines] = useState<string[]>([]);
 
   const handleAddMedicine = () => {
-    if (medicine.trim() !== "" && dosage.trim() !== "") {
-      setMedicines([...medicines, { name: medicine.trim(), dosage: dosage.trim() }]);
+    if (medicine.trim() !== "") {
+      setMedicines([...medicines, medicine.trim()]);
       setMedicine("");
-      setDosage("");
     }
   };
 
   const handleClear = () => {
     setMedicine("");
-    setDosage("");
     setMedicines([]);
   };
 
   const handleSubmit = () => {
     alert(
       `Medicines:\n${medicines
-        .map((med, index) => `${index + 1}. ${med.name} - ${med.dosage}`)
+        .map((med, index) => `${index + 1}. ${med}`)
         .join("\n")}`
     );
     // ✅ Later: Send this data to backend via API call
@@ -37,7 +34,7 @@ export default function MedicinesEntryPage() {
           Medicines Entry 💊
         </h1>
 
-        {/* Box 1 - Medicine Name + Dosage */}
+        {/* Box 1 - Medicine Name */}
         <div className="bg-yellow-50 p-6 rounded-xl shadow-md">
           <label className="block font-semibold text-gray-700 mb-2">
             Medicine Name
@@ -47,17 +44,6 @@ export default function MedicinesEntryPage() {
             value={medicine}
             onChange={(e) => setMedicine(e.target.value)}
             placeholder="e.g. Paracetamol"
-            className="w-full border rounded-lg px-4 py-3 shadow-sm focus:ring-2 focus:ring-yellow-500 mb-4"
-          />
-
-          <label className="block font-semibold text-gray-700 mb-2">
-            Dosage
-          </label>
-          <input
-            type="text"
-            value={dosage}
-            onChange={(e) => setDosage(e.target.value)}
-            placeholder="e.g. 500mg twice a day"
             className="w-full border rounded-lg px-4 py-3 shadow-sm focus:ring-2 focus:ring-yellow-500"
           />
 
@@ -75,9 +61,7 @@ export default function MedicinesEntryPage() {
           {medicines.length > 0 ? (
             <ul className="list-decimal list-inside text-gray-700 space-y-1">
               {medicines.map((med, index) => (
-                <li key={index}>
-                  {med.name} - {med.dosage}
-                </li>
+                <li key={index}>{med}</li>
               ))}
             </ul>
           ) : (
