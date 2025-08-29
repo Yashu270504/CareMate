@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import ChatbotButton from "./components/ChatbotButton"; // ✅ Import chatbot button
+import ChatbotLoader from "./components/ChatbotLoader";
+import ChatbotButton from "./components/ChatbotButton";  // ✅ add button
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,10 +33,12 @@ export default function RootLayout({
           {children}
         </main>
 
-        {/* ✅ Chatbot on every page */}
+        {/* ✅ Load Watson chat in background */}
+        <ChatbotLoader />
+
+        {/* ✅ Floating chat button */}
         <ChatbotButton />
       </body>
     </html>
   );
 }
-
