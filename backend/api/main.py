@@ -8,7 +8,7 @@ from pathlib import Path
 # =====================
 # Load Models
 # =====================
-MODEL_DIR = Path("ml/models")
+MODEL_DIR = Path(__file__).resolve().parent.parent / "ml" / "models"
 risk_model = joblib.load(MODEL_DIR / "risk_level_model.pkl")
 side_effect_model = joblib.load(MODEL_DIR / "side_effect_model.pkl")
 allergen_model = joblib.load(MODEL_DIR / "allergens_model.pkl")
@@ -25,7 +25,6 @@ class MedicineInput(BaseModel):
     dosage: float = 0
     age: int = 0
     medical_history: str = ""
-
 
 # =====================
 # Routes
@@ -50,7 +49,6 @@ def predict(data: MedicineInput):
         "side_effect": str(side_pred),
         "allergens": str(allergen_pred)
     }
-
 
 # =====================
 # Run the API
