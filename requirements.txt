@@ -1,38 +1,31 @@
 # === Core Backend ===
 fastapi
-uvicorn[standard]         # FastAPI server
-pydantic                  # Data validation
-python-dotenv             # Load .env variables
+uvicorn[standard]         
+pydantic>=2.7.0            # latest supports Python 3.13
+python-dotenv
 
-pandas
-numpy
-scikit-learn>=1.2
-joblib
+# === Machine Learning ===
+numpy>=2.1.0               # force NumPy 2.x
+pandas>=2.2.2              # NumPy 2.x compatible
+scikit-learn>=1.5.0        # official NumPy 2 support
+xgboost>=2.1.0             # NumPy 2.x compatible
+joblib>=1.4.0
 openpyxl
 
 # === Database ===
-sqlalchemy
-alembic                   # DB migrations
-psycopg2-binary           # PostgreSQL driver
-
-# === Machine Learning ===
-pandas
-scikit-learn
-xgboost                   # Optional (better than RF for tabular data)
-joblib                    # Save/load ML models
+sqlalchemy>=2.0.30
+alembic>=1.13.2
+psycopg2-binary
 
 # === IBM Watson / Granite ===
-ibm-watson-machine-learning
-ibm-watsonx-ai
-
-# === AWS Integrations ===
-#boto3                     # AWS SDK (S3, Textract, SNS)
+ibm-watson-machine-learning>=1.0.347
+ibm-watsonx-ai>=0.6.4
 
 # === Utils ===
-#requests                  # API calls
-#python-multipart          # File uploads (for OCR images)
-#cryptography              # Encrypt sensitive user data
+# requests
+# python-multipart
+# cryptography
 
 # === Testing ===
-#pytest
-#httpx                     # Test HTTP endpoints
+# pytest
+# httpx
